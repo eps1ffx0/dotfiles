@@ -1,0 +1,27 @@
+! General configuration
+XTerm.termName: xterm-256color
+XTerm.vt100.faceName: JetBrains Mono: size=10: antialias=false
+XTerm.vt100.utf8: true
+XTerm*faceName: fixed: size=9
+XTerm*boldFont: fixed: size=9
+
+! Other settings
+XTerm.vt100.selectToClipboard: true
+XTerm*selectToClipboard: true
+XTerm*saveLines: 1000
+XTerm*loginShell: true
+XTerm*sessionMgt: false
+XTerm*fullscreen: never
+
+! Geometry Setting
+XTerm.vt100.metaSendsEscape: true
+XTerm.vt100.geometria: 94x36
+
+! Support color
+XTerm.vt100.colorBDMode: true
+XTerm.vt100.colorBD: rgb:82/a4/d3
+XTerm.vt100.colorULMode: true
+XTerm.vt100.colorUL: rgb:e4/e4/e4
+XTerm*background: #090300
+XTerm*foreground: #a5a2a2
+XTerm*cursorColor: #a5a2a2
