@@ -1,3 +1,7 @@
+# Starship, cross-shell prompt
+# INSTALL: curl -sS https://starship.rs/install.sh | sh
+eval "$(starship init bash)"
+
 # If not running interactively, don't do anything
 case $- in
   *i*) ;;
