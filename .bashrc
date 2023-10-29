@@ -2,6 +2,9 @@
 # INSTALL: curl -sS https://starship.rs/install.sh | sh
 eval "$(starship init bash)"
 
+# RVM (Ruby Version Manager) support
+source $HOME/.rvm/scripts/rvm
+
 # If not running interactively, don't do anything
 case $- in
   *i*) ;;
@@ -116,3 +119,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
