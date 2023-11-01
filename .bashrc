@@ -101,6 +101,8 @@ alias update='sudo apt update && apt-get upgrade -s'
 alias upgrade='sudo apt-get update && sudo apt upgrade'
 alias autoremove='sudo apt-get update && sudo apt autoremove'
 alias autofix='sudo apt-get update && sudo apt install -f'
+alias tty='tmux'
+alias ttys='tmux new -s'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
